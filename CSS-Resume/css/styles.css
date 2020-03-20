@@ -1,0 +1,89 @@
+/* Color Template
+https://coolors.co/e7e6f7-a3c4bc-ffe882-fa8334-271033
+--------------------------
+#E7E6F7	- LAVENDER MIST
+#A3C4BC - CAMBRIDGE BLUE
+#FFE882 - YELLOW (CRAYOLA)
+#FA8334 - MANGO TANGO
+#271033 - MIDDLE RED PURPLE
+--------------------------
+*/
+
+
+/* Global Styles
+--------------------------*/
+body {
+	color: #271033;
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 300px;
+}
+a {
+	color: #FFE882;
+}
+a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin: 0;
+}
+.content-wrap{
+	width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+
+/* Profile
+--------------------------*/
+header {
+	background: #271033;
+	color: #E7E6F7;
+}
+
+
+/* Projects
+--------------------------*/
+.projects {
+	background: #E7E6F7; 
+}
+.projects a {
+	color: #FA8334;
+}
+.projects .btn {
+	color: #E7E6F7;	
+	background: #271033;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.projects .btn:hover {
+	background: rgba(39, 16, 51, 80%);
+	transition: 0.5s;
+}
+
+
+/* Work Expirience
+--------------------------*/
+.work-expirience {
+	background: #FA8334;
+}
+.work-expirience a {
+	color: #E7E6F7;
+}
+
+
+/* Education
+--------------------------*/
+
+
+
+/* Contact Info
+--------------------------*/
+footer {
+	background: #271033;
+	color: #E7E6F7;
+}
